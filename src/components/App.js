@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
 //code here 
-  const [text , setText] = useState(false);
+  const [text , setText] = useState("OFF");
 const handleClick = () => {
   setText(!text);
 }
